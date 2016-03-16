@@ -1,0 +1,22 @@
+{
+  "name": "ntask-api",
+  "version": "1.0.0",
+  "description": "Gestão de tarefa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "body-parser": "^1.15.0",
+    "consign": "^0.1.2",
+    "express": "^4.13.4",
+    "jwt-simple": "^0.5.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0",
+    "sequelize": "^3.19.3",
+    "sqlite3": "^3.1.1"
+  }
+}
